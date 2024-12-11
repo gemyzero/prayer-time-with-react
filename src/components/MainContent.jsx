@@ -32,7 +32,7 @@ console.log(city)
 
 const getTimings = ()=>{
 
-    axios.get('http://api.aladhan.com/v1/timingsByCity', {
+    axios.get('https://api.aladhan.com/v1/timingsByCity', {
         params:param
       }).then((res)=>{
   
